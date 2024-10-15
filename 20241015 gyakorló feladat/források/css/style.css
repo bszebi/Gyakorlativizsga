@@ -1,0 +1,38 @@
+/* Alap stílusok */
+body {
+    background: linear-gradient(to bottom, #d3d3d3, #ffffff); /* Szürke-fehér színátmenet */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Kártyák stílusa */
+.card {
+    border: 1px solid black; /* Fekete keret */
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5); /* Fekete árnyék */
+    margin-top: 5px; /* 5px felső margó */
+}
+
+/* Űrlap konténer */
+.form-container {
+    width: 600px; /* Konténer szélessége */
+    background-color: rgba(255, 255, 255, 0.8); /* 80%-os fehér háttér */
+    margin: 50px auto; /* Középre igazítás */
+    padding: 20px; /* 20px belső margó */
+    border-radius: 10px; /* 10px lekerekített sarkok */
+}
+
+/* Linkek stílusa */
+a {
+    color: red; /* Piros szín */
+    text-decoration: none; /* Aláhúzás eltávolítása */
+}
+
+a:hover {
+    text-decoration: underline; /* Aláhúzás hover esetén */
+}
+
+/* Navigációs sáv stílusai */
+.navbar {
+    margin-bottom: 20px; /* Navigációs sáv alatti margó */
+}
